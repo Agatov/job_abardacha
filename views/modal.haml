@@ -1,0 +1,88 @@
+.modal-overlay
+.modal-form.confirm
+  .form-title
+    Кто нам нужен?
+
+  .form-triggers
+    .trigger
+      .badge 1
+      .content
+        Парень от 21 до 30 лет. 
+        Особых требований нет, но опыт работы 
+        в интернет-сегменте будет плюсом.
+    .trigger
+      .badge 2
+      .content
+        Ваша задача - ведение клиентов компании, 
+        составление и отправка коммерческих 
+        предложений.
+
+    .trigger
+      .badge 3
+      .content
+        Возможна частичная занятость / совмещение
+        работы с учебой.
+
+
+  .form-subtitle
+    А обо всем остальном вам с удовольствием
+    %br
+    расскажет наш менеджер по персоналу Кирилл.
+
+  .form-offer
+    Напишите ваши контактные данные в форме снизу и он позвонит вам в течение дня
+
+  .form-body
+    %input{type: :text, name: :name, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+    %button.send-form Отправить
+
+
+
+.modal-form.reject
+  .form-title
+    Возможно, вам стоит это знать!
+
+  .form-triggers
+    .trigger
+      .badge 1
+      .content
+        Опыт работы желателен, но даже
+        если его нет - не беда, мы вас
+        всему научим.
+    .trigger
+      .badge 2
+      .content
+        Мы работаем строго без интима,
+        в полном соответствии
+        с законодательством РФ
+
+    .trigger
+      .badge 3
+      .content
+        Зарплата выплачивается раз
+        в два дня. У вас всегда
+        будут деньги на мороженное ;)
+
+
+  .form-subtitle
+    Наш менеджер по персоналу Анна
+    %br
+    сможет рассказать вам гораздо больше.
+
+  .form-offer
+    Напишите ваши контактные данные в форме снизу и она позвонит вам в течение дня
+
+  .form-body
+    %input{type: :text, name: :name, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+    %button.send-form Отправить
+
+
+.modal-thank-you
+  .modal-header
+    Спасибо!
+  .body
+    Анна вам позвонит!
+    .button#hide-thank-you
+      Я буду ждать
